@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MyLibSaifan_Tests' do
+  pod 'MyLibSaifan', :path => '../'
+  
+  
+end
