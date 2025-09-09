@@ -1,0 +1,70 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MyLib",
+    "printedName": "MyLib",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Greeting",
+        "printedName": "Greeting",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sayHello",
+            "printedName": "sayHello(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5MyLib8GreetingV8sayHello2toS2S_tFZ",
+            "mangledName": "$s5MyLib8GreetingV8sayHello2toS2S_tFZ",
+            "moduleName": "MyLib",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:5MyLib8GreetingV",
+        "mangledName": "$s5MyLib8GreetingV",
+        "moduleName": "MyLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

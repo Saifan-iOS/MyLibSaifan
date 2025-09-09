@@ -1,0 +1,6 @@
+framework module MyLibSaifan {
+  umbrella header "MyLibSaifan-umbrella.h"
+
+  export *
+  module * { export * }
+}

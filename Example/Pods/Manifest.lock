@@ -1,0 +1,16 @@
+PODS:
+  - MyLibSaifan (1.0.0)
+
+DEPENDENCIES:
+  - MyLibSaifan (from `../`)
+
+EXTERNAL SOURCES:
+  MyLibSaifan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLibSaifan: 7ffe35f631a17d7ff1ece72b9096040e4958228d
+
+PODFILE CHECKSUM: 69ad8c31f0e2b30f8995a967f0842c47e6123847
+
+COCOAPODS: 1.12.0
